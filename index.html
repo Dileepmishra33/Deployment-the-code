@@ -1,0 +1,77 @@
+<!-- ======================= index.html ======================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepHouse.com – Housing Listings</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+    }
+    header {
+      background: #4b7bec;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .flat-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 25px;
+      display: flex;
+      transition: 0.3s;
+    }
+    .flat-card:hover {
+      transform: scale(1.02);
+    }
+    .flat-img {
+      width: 40%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .flat-info {
+      padding: 20px;
+      width: 60%;
+    }
+    .flat-info h2 {
+      margin: 0 0 10px;
+      color: #2d3436;
+    }
+    .flat-info p {
+      margin: 6px 0;
+      color: #636e72;
+      font-size: 15px;
+    }
+    .contact-box {
+      background: #dff9fb;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-size: 15px;
+      border-left: 5px solid #22a6b3;
+    }
+  </style>
+</head>
+<body>
+
+<header>🏠 Welcome to DeepHouse.com</header>
+
+<div class="container" id="flatList"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+
