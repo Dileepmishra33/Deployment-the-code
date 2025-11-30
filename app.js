@@ -24,7 +24,7 @@ const flats = [
     price: "₹80,000 / month",
     size: "650 sq.ft",
     img: "https://dyimg2.realestateindia.com/prop_images/2009648/1176031_8-350x350.jpg",
-    owner: "Mishra ji",
+    owner: "Mishra ji dibbu",
     mobile: "9123456780"
   }
 ];
